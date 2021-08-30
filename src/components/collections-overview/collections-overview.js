@@ -4,7 +4,7 @@ import { createStructuredSelector } from 'reselect';
 import { selectCollectionsForPreview } from '../../redux/shop/shop.selectors';
 
 
-import CollectionPreview from '../previev-collection/collection-preview';
+import CollectionPreview from '../collection-preview/collection-preview';
 
 import './collections-overview.style.scss'
 

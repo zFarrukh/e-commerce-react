@@ -18,11 +18,6 @@ export function* fetchCollectionsAsync() {
     } catch(err) {
         yield put(fetchCollectionsFailure(err.message));
     }
-    // collectionRef.get().then(async snapshot => {
-    //   const collectionsMap = convertCollectionsSnapshotToMap(snapshot);
-    //   dispatch(fetchCollectoinsSuccess(collectionsMap));
-
-    // }).catch(err => dispatch(fetchCollectionsFailure(err.message)))
 }
 
 export function* fetchCollectionsStart() {
